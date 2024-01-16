@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Product {
+public class Category {
     private String name;
-    private double price;
     private String description;
-    private Category[] categories;
+    private Product[] products;
 }

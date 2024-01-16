@@ -1,0 +1,6 @@
+server:
+    port: ${SERVER_PORT:8090}
+spring:
+    graphql:
+        graphiql:
+            enabled: ${ENABLED_INTROSPECT:true}

@@ -6,4 +6,5 @@ type Product {
     name: String,
     price: Float,
     description: String
+    categories: [Category]
 }
